@@ -10,16 +10,18 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            int a=13;
-            for (int i = 2; i <= a/2; i++)
-            { 
-                if (a%i == 0)
+            for(int i=0; i<=100; i++)
+            {
+                for (int j=2; j<=i/2; j++)
                 {
-                    Console.WriteLine("a is not prime number");
+                    if (i%j == 0) 
+                    {
+                        Console.WriteLine("is not prime " + i);
+                        break;
+                    }
                 }
-                break;
+                Console.WriteLine("is prime" + i);
             }
-            Console.WriteLine("a is prime number");
         }
     }
 }
