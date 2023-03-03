@@ -7,5 +7,8 @@ namespace Project
         {
             EvenOdd evenOdd = new EvenOdd();
             evenOdd.EvenOrOdd();
+            Factorial factorial = new Factorial();
+            factorial.FactorialOfNumber();
         }
     }
+}
