@@ -14,15 +14,15 @@ namespace Demo
         {
             if ( (a > b) && (a > c) )
                 {
-                Console.WriteLine("a is greatest number");
+                Console.WriteLine(a + " is greatest number");
                 }
             else if (b > c)
             {
-                Console.WriteLine("b is greatest number");
+                Console.WriteLine(b + " is greatest number");
             }
             else
             {
-                Console.WriteLine("c is the gratest number");
+                Console.WriteLine(c + " is the gratest number");
             }
         }
     }
