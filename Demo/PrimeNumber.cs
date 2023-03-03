@@ -16,11 +16,11 @@ namespace Demo
                 {
                     if (i%j == 0) 
                     {
-                        Console.WriteLine("is not prime " + i);
+                        Console.WriteLine(i + " is not prime");
                         break;
                     }
                 }
-                Console.WriteLine("is prime" + i);
+                Console.WriteLine(i + " is prime");
             }
         }
     }
